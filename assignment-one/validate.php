@@ -1,5 +1,6 @@
 <?php
     class validate {
+        // function to stop the user from entering a negative number
         public function checkHoursWorked($num) {
             $message = "";
             if ($num < 0) {
@@ -11,6 +12,7 @@
             }
         }
 
+        // function to check if the user enters a valid email
         public function checkEmail($email) {
             $message = "";
             if (filter_var($email, FILTER_VALIDATE_EMAIL)) {

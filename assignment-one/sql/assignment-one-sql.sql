@@ -1,3 +1,5 @@
+CREATE DATABASE assignment_one;
+
 CREATE TABLE employees (
     id int NOT NULL AUTO_INCREMENT,
     firstName varchar(50) NOT NULL,
