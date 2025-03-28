@@ -1,0 +1,105 @@
+/* overall page styling */
+html {
+    background-color: beige;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* header styling */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    border-bottom: 3px solid black;
+}
+
+header a:last-child {
+    margin-left: 50px;
+}
+
+header a:first-child {
+    margin-right: 50px;
+}
+
+header a {
+    background-color: blanchedalmond;
+    padding: 20px;
+    border: 3px solid black;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+header a:hover {
+    background-color: white;
+}
+
+/* form styling */
+#sign-in-form, #sign-up-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border: 3px solid black;
+    min-width: 500px;
+}
+
+#sign-in-form {
+    background-color: peachpuff;
+}
+
+#sign-up-form {
+    background-color: #C4A484;
+    margin-bottom: 50px;
+}
+
+label, input, button {
+    margin-bottom: 10px;
+}
+
+h2 {
+    height: 10vh;
+    font-size: 2.5em;
+}
+
+button {
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+}
+
+/* success page styling */
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+p {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#log-out-btn {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* footer styling */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    border-top: 3px solid black;
+}
